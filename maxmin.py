@@ -1,6 +1,6 @@
 def maxmin(arr):
     arr.sort()
-    return [arr[0], arr[::-1][0]]
+    return [arr[0], arr[-1]]
 
 
 def main():
